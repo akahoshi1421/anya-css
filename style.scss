@@ -1,0 +1,567 @@
+$myblack: #4c372e;
+$mypink: #f7b4ab;
+$mypink_dark: #c17c77;
+$accessories: #2e2822;
+$gold: #a2955e;
+$mypink_l: #fcdfd3;
+$shadow_l: #d9b7ac;
+
+$skin: #fbe9db;
+
+$eye_border: #3d3336;
+$eye_white: #f2f3f3;
+$eye: #1e3d38;
+$teeth: #f8f6f7;
+
+img{
+    opacity: 0.8;
+}
+
+.anya-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 675px;
+    overflow: hidden;
+
+    .hear-1{
+        position: absolute;
+        height: 1500px;
+        width: 600px;
+
+        border-left: 1px solid $myblack;
+        border-radius: 11% 0% 0% 32%/106% 21% 0% 69%;
+        bottom: -29%;
+        left: 23%;
+        transform: rotate(20deg);
+        overflow: hidden;
+        background-color: $mypink_dark;
+
+        .pink-1{
+            position: absolute;
+            height: 1000px;
+            width: 500px;
+            border-radius: 14% 0% 0% 154%/91% 21% 0% 69%;
+            bottom: -6%;
+            left: -2%;
+            transform: rotate(332deg);
+            background-color: $mypink;
+        }
+        
+    }
+
+    .hear-accessories{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        top: -6%;
+        left: 18%;
+        transform: rotate(70deg);
+        background-color: $accessories;
+        border: 1px solid $myblack;
+        overflow: hidden;
+
+        .accessories-gold-1{
+            position: absolute;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-color: $gold;
+            top: 30%;
+            left: -1%;
+        }
+        .accessories-gold-2{
+            position: absolute;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            background-color: $gold;
+            top: 52%;
+            left: 34%;
+        }
+        .accessories-inner{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            top: -7%;
+            left: 24%;
+            border-radius: 11% 0% 0% 7%/90% 21% 0% 31%;
+            transform: rotate(298deg);
+            background-color: $accessories;
+        }
+    }
+
+    .hear-2{
+        position: absolute;
+        height: 1000px;
+        width: 600px;
+        border-left: 1px solid #4c372e;
+        border-radius: 311% 0% 0% 58%/293% 21% 0% 99%;
+        bottom: -6%;
+        left: 18%;
+        transform: rotate(359deg);
+        overflow: hidden;
+        background-color: $mypink_dark;
+
+        .pink-2{
+            position: absolute;
+            height: 889px;
+            width: 500px;
+            border-radius: 14% 0% 0% 47%/91% 21% 0% 109%;
+            bottom: -3%;
+            left: -13%;
+            transform: rotate(341deg);
+            background-color: $mypink;
+        }
+
+        .pink-l-1{
+            position: absolute;
+            height: 152px;
+            width: 65px;
+            bottom: 63%;
+            left: 18%;
+            border-radius: 47%;
+            transform: rotate(34deg);
+            background-color: $mypink_l;
+        }
+        .pink-l-2{
+            position: absolute;
+            height: 102px;
+            width: 45px;
+            bottom: 67.5%;
+            left: 31%;
+            border-radius: 47%;
+            transform: rotate(34deg);
+            background-color: $mypink_l;
+        }
+    }
+
+    .hear-3{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-left: 2px solid #4c372e;
+        border-radius: 0% 0% 0% 32%/56% 21% 0% 117%;
+        bottom: -1%;
+        left: 13%;
+        transform: rotate(355deg);
+    }
+
+    .hear-4{
+        position: absolute;
+        height: 500px;
+        width: 284px;
+        border-left: 1px solid #4c372e;
+        border-radius: 113% 0% 0% 17%/196% 0% 0% 14%;
+        bottom: 0%;
+        left: 31%;
+        transform: rotate(311deg);
+        overflow: hidden;
+    }
+
+    .hear-5{
+        position: absolute;
+        height: 600px;
+        width: 200px;
+        border-left: 1px solid #4c372e;
+        border-radius: 289% 0% 0% 75%/286% 21% 0% 137%;
+        bottom: 4%;
+        left: 34%;
+        transform: rotate(334deg);
+        overflow: hidden;
+    }
+
+    .hear-6{
+        position: absolute;
+        height: 1000px;
+        width: 600px;
+        border-left: 1px solid #4c372e;
+        border-radius: 436% 0% 0% 143%/322% 21% 0% 152%;
+        bottom: -6%;
+        left: 36.4%;
+        transform: rotate(342deg);
+        overflow: hidden;
+
+        &.bg{
+            background-color: $skin;
+            .hear-shadow-1{
+                position: absolute;
+                height: 549px;
+                width: 800px;
+                border-radius: 0% 0% 93% 0%/0% 21% 97% 0%;
+                top: -7%;
+                left: -86%;
+                transform: rotate(30deg);
+                background-color: $shadow_l;
+            }
+            .hear-shadow-2{
+                position: absolute;
+                height: 549px;
+                width: 800px;
+                border-radius: 0% 0% 93% 0%/0% 21% 97% 0%;
+                top: -10%;
+                left: -85%;
+                transform: rotate(30deg);
+                background-color: $myblack;
+            }
+
+
+            .hear-7{
+                position: absolute;
+                height: 549px;
+                width: 800px;
+                border-right: 1px solid #4c372e;
+                border-radius: 0% 0% 93% 0%/0% 21% 97% 0%;
+                top: -4%;
+                left: -92%;
+                transform: rotate(23deg);
+                background-color: $mypink;
+            }
+        }
+    }
+
+    .hear-8{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -7%;
+        left: 53%;
+        border-radius: 0% 6% 2% 29%/0% 1% 1% 84%;
+        border-left: 1px solid #4c372e;
+        background-color: $mypink;
+    }
+    .hear-9{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -15.5%;
+        left: 58%;
+        border-radius: 44% 6% 2% 0%/100% 1% 1% 0%;
+        border-left: 1px solid #4c372e;
+        transform: rotate(346deg);
+        background-color: $skin;
+        overflow: hidden;
+
+        .hear-shadow-3{
+            position: absolute;
+            width: 450px;
+            height: 251px;
+            top: -5%;
+            left: 4%;
+            border-radius: 0% 6% 2% 33%/0% 1% 1% 90%;
+            background-color: $shadow_l;
+            transform: rotate(359deg);
+        }
+    }
+
+    .hear-10{
+        position: absolute;
+        width: 450px;
+        height: 351px;
+        top: -30%;
+        left: 59%;
+        border-radius: 0% 6% 2% 34%/0% 1% 1% 84%;
+        border-left: 1px solid #4c372e;
+        transform: rotate(342deg);
+        background-color: $mypink;
+    }
+    .hear-11{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -28%;
+        left: 64%;
+        border-radius: 32% 6% 2% 0%/100% 1% 1% 0%;
+        border-left: 1px solid #4c372e;
+        transform: rotate(328deg);
+        background-color: $skin;
+    }
+    .hear-12{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -9%;
+        left: 67%;
+        border-radius: 0% 6% 2% 62%/0% 1% 1% 84%;
+        border-left: 1px solid #4c372e;
+        background-color: $mypink;
+        overflow: hidden;
+        .hear-13{
+            position: absolute;
+            width: 450px;
+            height: 251px;
+            top: -42%;
+            left: 29%;
+            transform: rotate(324deg);
+            border-radius: 20% 6% 2% 0%/100% 1% 1% 1%;
+            border-left: 1px solid #4c372e;
+            background-color: $mypink;
+            overflow: hidden;
+
+            .hear-14{
+                position: absolute;
+                width: 450px;
+                height: 251px;
+                top: 4%;
+                left: -1%;
+                border-radius: 81% 6% 2% 0%/163% 1% 1% 1%;
+                border-left: 1px solid #4c372e;
+                background-color: $skin;
+                overflow: hidden;
+
+                .hear-shadow-4{
+                    position: absolute;
+                    width: 450px;
+                    height: 251px;
+                    top: 19%;
+                    left: 8%;
+                    border-radius: 0% 6% 2% 36%/0% 1% 1% 52%;
+                    transform: rotate(-324deg);
+                    background-color: $shadow_l;
+                    overflow: hidden;
+
+                    .hear-shadow-5{
+                        position: absolute;
+                        width: 450px;
+                        height: 251px;
+                        top: -15%;
+                        left: -1%;
+                        border-radius: 0% 6% 2% 34%/0% 1% 1% 56%;
+                        background-color: $myblack;
+                        overflow: hidden;      
+                    }
+                }
+            }
+        }
+    }
+    .hear-15{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -14%;
+        left: 83.5%;
+        border-radius: 0% 6% 0% 53%/0% 1% 1% 105%;
+        border-left: 1px solid #4c372e;
+        background-color: $mypink;
+        overflow: hidden;
+        .hear-16{
+            position: absolute;
+            width: 450px;
+            height: 251px;
+            top: 16%;
+            left: 26.5%;
+            border-radius: 0% 6% 2% 41%/3% 1% 1% 100%;
+            border-left: 1px solid #4c372e;
+            background-color: $skin;
+            overflow: hidden;
+
+            .hear-shadow-6{
+                position: absolute;
+                width: 450px;
+                height: 251px;
+                top: -57%;
+                left: -3%;
+                border-radius: 0% 6% 2% 38%/0% 1% 1% 54%;
+                transform: rotate(335deg);
+                background-color: $shadow_l;
+                overflow: hidden;
+
+                .hear-shadow-7{
+                    position: absolute;
+                    width: 450px;
+                    height: 251px;
+                    top: -37%;
+                    left: -2%;
+                    transform: rotate(351deg);
+                    border-radius: 0% 6% 2% 37%/0% 1% 1% 54%;
+                    background-color: $myblack;
+                }
+            }
+        }
+    }
+
+    .hear-17{
+        position: absolute;
+        width: 450px;
+        height: 251px;
+        top: -19%;
+        left: 92.8%;
+        border-radius: 0% 6% 0% 53%/0% 1% 1% 105%;
+        border-left: 1px solid #4c372e;
+        background-color: $mypink;
+    }
+
+
+    .skin-add-1{
+        position: absolute;
+        height: 800px;
+        width: 800px;
+        top: 11%;
+        left: 61%;
+        background-color: #fbe9db;
+    }
+    .skin-add-2{
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        top: 11%;
+        left: 72.5%;
+        background-color: #fbe9db;
+    }
+    .skin-add-3{
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        top: 17%;
+        left: 87.5%;
+        background-color: #fbe9db;
+    }
+
+    .skin-add-4{
+        position: absolute;
+        width: 311px;
+        height: 50px;
+        top: 43%;
+        left: 43%;
+        background-color: $skin;
+    }
+
+    .skin-add-5{
+        position: absolute;
+        width: 211px;
+        height: 50px;
+        top: 42%;
+        left: 86%;
+        clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+
+        background-color: $skin;
+    }
+    .skin-add-6{
+        position: absolute;
+        width: 50px;
+        height: 10px;
+        top: 42%;
+        left: 86%;
+        clip-path: polygon(0 63%, 100% 0, 100% 100%, 0% 100%);
+        background-color: $skin;
+    }
+
+    .eye{
+        position: absolute;
+        height: 41px;
+        width: 320px;
+
+        border-radius: 47% 55% 2% 0%/100% 100% 0% 0%;
+        border: 9px solid $eye_border;
+        border-bottom: 0px;
+        background-color: $eye_white;
+        overflow: hidden;
+
+        &.right{
+            top: 37%;
+            left: 42%;
+
+            .eye-in{
+                position: absolute;
+                width: 124px;
+                height: 124px;
+                border-radius: 50%;
+                top: -129%;
+                left: 33%;
+                background-color: $eye;
+            }
+        }
+        &.left{
+            top: 36%;
+            left: 85.2%;
+            .eye-in{
+                position: absolute;
+                width: 124px;
+                height: 124px;
+                border-radius: 50%;
+                top: -129%;
+                left: 25%;
+                background-color: $eye;
+            }
+        }
+    }
+    .eye-over-1{
+        position: absolute;
+        height: 10px;
+        width: 331px;
+        top: 42%;
+        left: 42%;
+        border-top: 9px solid $eye_border;
+        border-radius: 49% 53% 0% 0% / 100% 100% 0% 0%;
+    }
+    .eye-over-2{
+        position: absolute;
+        height: 10px;
+        width: 331px;
+        top: 40.95%;
+        left: 85.3%;
+        border-top: 9px solid $eye_border;
+        border-radius: 49% 53% 0% 0% / 100% 100% 0% 0%;
+    }
+
+    .mouth{
+        position: absolute;
+        width: 520px;
+        height: 80px;
+        border: 1px solid #4c372e;
+        border-radius: 0% 0% 50% 50%/0% 0% 96% 100%;
+        top: 81%;
+        left: 56%;
+        background-color: $myblack;
+        overflow: hidden;
+
+        .teeth{
+            position: absolute;
+            width: 453px;
+            height: 52px;
+            border-radius: 0% 0% 50% 50%/0% 0% 96% 100%;
+            top: 30%;
+            left: 7%;
+            background-color: $teeth;
+        }
+        .teeth-2{
+            position: absolute;
+            width: 28px;
+            height: 20px;
+            clip-path: polygon(0 0, 100% 28%, 100% 100%);
+
+            top: 23%;
+            left: 3%;
+            background-color: $teeth;
+        }
+        .teeth-3{
+            position: absolute;
+            width: 28px;
+            height: 20px;
+            clip-path: polygon(0 28%, 100% 0, 0 100%);
+            top: 26%;
+            left: 92%;
+            background-color: $teeth;
+        }
+    }
+    .mouth-up{
+        position: absolute;
+        width: 525px;
+        height: 75px;
+        top: 73%;
+        left: 56%;
+        border-radius: 0% 0% 6% 11%/0% 0% 30% 26%;
+        background-color: $skin;
+    }
+
+    .nooth{
+        position: absolute;
+        top: 56.8%;
+        left: 76.3%;
+        height: 36px;
+        width: 5px;
+        clip-path: polygon(100% 0, 89% 50%, 100% 100%, 0 50%);
+        background-color: $myblack;
+    }
+}
